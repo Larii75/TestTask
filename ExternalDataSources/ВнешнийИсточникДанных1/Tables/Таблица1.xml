@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Table uuid="6e0b0c0d-9d9c-4be2-ba44-e2dce8fb8e27">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceTableManager.ВнешнийИсточникДанных1.Таблица1" category="Manager">
+				<xr:TypeId>762b96ef-c323-4153-b371-75b63cb2fb5f</xr:TypeId>
+				<xr:ValueId>c542a8a8-b211-437f-bb52-62ef85c3c138</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableObject.ВнешнийИсточникДанных1.Таблица1" category="Object">
+				<xr:TypeId>2d68033a-7848-4a5f-b8c0-2cb157b33e94</xr:TypeId>
+				<xr:ValueId>b9021162-286d-40b2-8b32-072f323bf316</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRef.ВнешнийИсточникДанных1.Таблица1" category="Ref">
+				<xr:TypeId>65ee8b67-26ea-4c7a-a5c9-e79f9a6ed265</xr:TypeId>
+				<xr:ValueId>c4cf9eac-2696-4bfc-8999-99edf99eea35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableList.ВнешнийИсточникДанных1.Таблица1" category="List">
+				<xr:TypeId>3ccf1692-88e5-4e06-b8f5-1a92f718528c</xr:TypeId>
+				<xr:ValueId>68216785-d1f8-4ae7-96f8-e08cef249388</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecord.ВнешнийИсточникДанных1.Таблица1" category="Record">
+				<xr:TypeId>e075febc-2b3f-4422-b46d-aa6ddfee22a7</xr:TypeId>
+				<xr:ValueId>179950c3-86b6-457e-a834-d6c6afd29d3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.ВнешнийИсточникДанных1.Таблица1" category="RecordSet">
+				<xr:TypeId>39626915-5a67-4245-bf56-c7cdd4a3b474</xr:TypeId>
+				<xr:ValueId>e4677448-8fb7-497f-a1e8-7e99f5535fd1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.ВнешнийИсточникДанных1.Таблица1" category="RecordKey">
+				<xr:TypeId>6a319590-03da-43da-b99f-3c418260f7db</xr:TypeId>
+				<xr:ValueId>df8da12c-36d4-40e4-a10c-6dbc0fa0635f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.ВнешнийИсточникДанных1.Таблица1" category="RecordManager">
+				<xr:TypeId>c799debf-434f-4c24-bae6-0f33da80ce37</xr:TypeId>
+				<xr:ValueId>76600bdc-990d-4dd3-9c7c-aac02203fb70</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Таблица1</Name>
+			<Synonym/>
+			<Comment/>
+			<TableType>Expression</TableType>
+			<NameInDataSource/>
+			<ExpressionInDataSource>(SELECT CASE WHEN EventLog.date = 0 THEN '0001-01-01 00:00:00' ELSE datetime(EventLog.date/10000-62135578800,'unixepoch') END AS data FROM EventLog limit 1000)</ExpressionInDataSource>
+			<TableDataType>NonobjectData</TableDataType>
+			<KeyFields/>
+			<PresentationField/>
+			<ParentField/>
+			<UnfilledParentValue xsi:nil="true"/>
+			<Characteristics/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<QuickChoice>false</QuickChoice>
+			<InputByString/>
+			<CreateOnInput>Auto</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DefaultObjectForm/>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ReadOnly>false</ReadOnly>
+			<TransactionsIsolationLevel>Auto</TransactionsIsolationLevel>
+			<DataVersionField/>
+			<EditType>InDialog</EditType>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Automatic</DataLockControlMode>
+		</Properties>
+		<ChildObjects>
+			<Field uuid="7b01ba1b-e991-4963-937e-8765975faa0c">
+				<Properties>
+					<Name>data</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Data</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ChoiceForm/>
+					<NameInDataSource>data</NameInDataSource>
+					<ReadOnly>true</ReadOnly>
+					<AllowNull>true</AllowNull>
+				</Properties>
+			</Field>
+		</ChildObjects>
+	</Table>
+</MetaDataObject>

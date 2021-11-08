@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="Задача1" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача 1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="Задача1РасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<FormattedDocumentField name="Задача1Описание" id="5">
+							<DataPath>Задача1Описание</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Описание задачи 1</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Задача1ОписаниеКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="Задача1ОписаниеРасширеннаяПодсказка" id="7"/>
+						</FormattedDocumentField>
+						<FormattedDocumentField name="Задача1Ссылка" id="28">
+							<DataPath>Задача1Ссылка</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Решение задачи 1 здесь</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Задача1СсылкаКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="Задача1СсылкаРасширеннаяПодсказка" id="30"/>
+						</FormattedDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="Задача2" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача 2</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="Задача2РасширеннаяПодсказка" id="9"/>
+					<ChildItems>
+						<FormattedDocumentField name="Задача2Описание" id="31">
+							<DataPath>Задача2Описание</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="Задача2ОписаниеКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="Задача2ОписаниеРасширеннаяПодсказка" id="33"/>
+						</FormattedDocumentField>
+						<FormattedDocumentField name="Задача2Ссылка" id="34">
+							<DataPath>Задача2Ссылка</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Решение задачи 2 здесь</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Задача2СсылкаКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="Задача2СсылкаРасширеннаяПодсказка" id="36"/>
+						</FormattedDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="Задача3" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача 3</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="Задача3РасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<FormattedDocumentField name="Задача3Описание" id="37">
+							<DataPath>Задача3Описание</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="Задача3ОписаниеКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="Задача3ОписаниеРасширеннаяПодсказка" id="39"/>
+						</FormattedDocumentField>
+						<FormattedDocumentField name="Задача3Ссылка" id="40">
+							<DataPath>Задача3Ссылка</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Решение задачи 3 здесь</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Задача3СсылкаКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="Задача3СсылкаРасширеннаяПодсказка" id="42"/>
+						</FormattedDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="Задача4" id="18">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача 4</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="Задача4РасширеннаяПодсказка" id="19"/>
+					<ChildItems>
+						<FormattedDocumentField name="Задача4Описание" id="46">
+							<DataPath>Задача4Описание</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="Задача4ОписаниеКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="Задача4ОписаниеРасширеннаяПодсказка" id="48"/>
+						</FormattedDocumentField>
+						<FormattedDocumentField name="Задача4Ссылка" id="43">
+							<DataPath>Задача4Ссылка</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Решение задачи 4 здесь</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Задача4СсылкаКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="Задача4СсылкаРасширеннаяПодсказка" id="45"/>
+						</FormattedDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="Задача5" id="23">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача 5</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Задача1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="Задача5РасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<FormattedDocumentField name="Задача5Описание" id="49">
+							<DataPath>Задача5Описание</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="Задача5ОписаниеКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="Задача5ОписаниеРасширеннаяПодсказка" id="51"/>
+						</FormattedDocumentField>
+						<FormattedDocumentField name="Задача5Ссылка" id="52">
+							<DataPath>Задача5Ссылка</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Решение задачи 5 здесь</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Задача5СсылкаКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="Задача5СсылкаРасширеннаяПодсказка" id="54"/>
+						</FormattedDocumentField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.НавигаторПоЗадачам</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Задача1Описание" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача1 описание</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача1Ссылка" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача1 ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоЗадач" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество задач</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача2Описание" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача 2 описание</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача2Ссылка" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача 2 ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача3Описание" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача 3 описание</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача3Ссылка" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача 3 ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача4Описание" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача 4 описание</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача4Ссылка" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача 4 ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача5Описание" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача 5 описание</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Задача5Ссылка" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задача 5 ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>
