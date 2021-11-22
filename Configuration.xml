@@ -217,11 +217,9 @@
 			<Catalog>Валюты</Catalog>
 			<Document>Приходная</Document>
 			<Document>Расходная</Document>
-			<Sequence>Последовательность1</Sequence>
 			<Enum>ТипыНоменклатуры</Enum>
 			<Report>ВедомостьПоТоварамНаСкладах</Report>
 			<Report>РеестрВалютныхПриходныхНакладных</Report>
-			<Report>удалить</Report>
 			<DataProcessor>НавигаторПоЗадачам</DataProcessor>
 			<DataProcessor>УдалениеСтрокТЧОбработки</DataProcessor>
 			<InformationRegister>КурсыВалют</InformationRegister>
