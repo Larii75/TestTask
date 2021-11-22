@@ -21,7 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.РеестрВалютныхПриходныхНакладных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Расходная</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.удалить</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3711e30b-08f9-4da9-877d-7048b786f4c6</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
