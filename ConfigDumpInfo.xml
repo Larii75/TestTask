@@ -123,12 +123,6 @@
 		<Metadata name="Report.РеестрВалютныхПриходныхНакладных.Form.ФормаОтчета.Form" id="70b662c9-6e13-41b1-b749-cc03488c3897.0" configVersion="9fbbab07e7e9f746ae550c125debfc0e00000000"/>
 		<Metadata name="Report.РеестрВалютныхПриходныхНакладных.Template.ОсновнаяСхемаКомпоновкиДанных" id="18d07f93-02e2-4fab-8a8e-2596ae4064fc" configVersion="8fc76ad6b5448c4784b2895fc7528cb700000000"/>
 		<Metadata name="Report.РеестрВалютныхПриходныхНакладных.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="18d07f93-02e2-4fab-8a8e-2596ae4064fc.0" configVersion="3111e856e969c7459aac46245ce4bd4200000000"/>
-		<Metadata name="Report.удалить" id="3711e30b-08f9-4da9-877d-7048b786f4c6" configVersion="05d4f5f0df73a24caf78cebd5e1851ca00000000"/>
-		<Metadata name="Report.удалить.Form.ФормаОтчета" id="76bca00b-9b6f-4593-9805-0e2a6aad5467" configVersion="fb7bc6078725ba4fb17e20a8c406c62c00000000"/>
-		<Metadata name="Report.удалить.Form.ФормаОтчета.Form" id="76bca00b-9b6f-4593-9805-0e2a6aad5467.0" configVersion="2d14f05fa9d00b459508177caad4b7f300000000"/>
-		<Metadata name="Report.удалить.Template.Макет" id="8bca62d1-8b69-475d-bb0b-e5795556e32f" configVersion="9ea5422b3409d643a06039025e9b677e00000000"/>
-		<Metadata name="Report.удалить.Template.Макет.Template" id="8bca62d1-8b69-475d-bb0b-e5795556e32f.0" configVersion="89951b419fa8844495742bc108d3b54f00000000"/>
-		<Metadata name="Sequence.Последовательность1" id="b9c3bc30-ed95-4e6c-8765-2598bd309f68" configVersion="faad12533588df41a7b608157cbd12d000000000"/>
 		<Metadata name="Subsystem.Задачи" id="fcee3f05-e830-4818-a732-5eef8ce5b65d" configVersion="6c24f03871fbb746aa78e87d6d5e024d00000000"/>
 		<Metadata name="Subsystem.Закупки" id="4f19a648-733e-4cf8-8937-c96593745457" configVersion="6b49acdc49e67c4298094d9c8276261600000000"/>
 		<Metadata name="Subsystem.НСИ" id="f9872355-6365-43d9-acee-7e5d1703bc8f" configVersion="e304513288b90e498fae12d281011d6300000000"/>
